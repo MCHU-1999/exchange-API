@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/tts-exchange-api/tts-exchange-api-image', '.' ]
+images:
+- 'gcr.io/tts-exchange-api/tts-exchange-api-image'
